@@ -4,13 +4,16 @@ $email = $_POST["email"];
 $password = $_POST["password"];
 $FName = $_POST["FName"];
 $SName = $_POST["SName"];
-$MobNumber = $_POST["mobNumber"];
+$mobNumber = $_POST["mobNumber"];
 
-$sql = "INSERT INTO user (email,password,firstName,surName,phoneNum) VALUES (?,?,?,?,?)";
-$stmt = $conn->prepare($sql);
-$stmt->bind_param('sssss', $email,$password,$FName,$SName,$MobNumber);
-$result = $stmt->execute();
-if (!$result) echo "failed to insert record";
+$sql = "INSERT INTO user (email,password,firstName,surName,phoneNum) VALUES ($email,$password,$FName,$SName,$mobNumber)";
+if ($conn->query($sql) === TRUE) {
+    echo "New record created successfully";
+} else {
+    echo "Error: " . $sql . "<br>" . $conn->error;
+}
+
+$conn->close();
 
  echo $_POST["FName"];
 echo "Your email address is: ";
