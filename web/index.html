@@ -20,36 +20,36 @@
 
     <div class="container">
 
-      <form class="form-register">
-        <?php 
+    <form action = "php/handleAddUser.php" class="form-register" method="POST">
+        <?php
 			include("php/database.php");
 		?>
-		
+
 		<h2 class="form-register-heading">New User</h2>
-		
+
         <label for="inputEmail">Email address</label>
-        <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+        <input type="email" id="inputEmail" name="email" class="form-control" placeholder="Email address" required autofocus>
 		<br/>
-		
+
         <label for="inputPassword">Password</label>
-        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+        <input type="password" id="inputPassword" name="password" class="form-control" placeholder="Password" required>
         <br/>
-		
+
 		<label for="inputFName">First Name</label>
-        <input type="text" id="inputFName" class="form-control" placeholder="First name" required>
+        <input type="text" id="inputFName" name="FName" class="form-control" placeholder="First name" required>
         <br/>
-		
+
 		<label for="inputLName">Last Name</label>
-        <input type="text" id="inputLName" class="form-control" placeholder="Last name" required>
+        <input type="text" id="inputLName" name="SName" class="form-control" placeholder="Last name" required>
         <br/>
-		
+
 		<label for="inputMobNumber">Mobile Number</label>
-        <input type="mobileNum" id="inputMobNumber" class="form-control" placeholder="Mobile number" required>
+        <input type="mobileNum" id="inputMobNumber" name="mobNumber" class="form-control" placeholder="Mobile number" required>
         <br/>
-		
+
 		<div class="checkbox">
           <label>
-            <input type="checkbox" value="remember-me"> Do you agree to the terms & conditions?
+            <input type="checkbox" value="termsAndCondCheck"> Do you agree to the terms & conditions?
           </label>
         </div>
         <button class="btn btn-lg btn-primary btn-block" type="submit">Register</button>
