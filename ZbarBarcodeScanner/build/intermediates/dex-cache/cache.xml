@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Cipson\Documents\Uni\GP\ZbarBarcodeScanner\app\build\intermediates\exploded-aar\me.dm7.barcodescanner\zbar\1.8.2\jars\libs\zbar.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="7bbdf7ba57a8a157c0cad51e455609c70887812e">
+        <dex dex="C:\Users\Cipson\Documents\Uni\GP\ZbarBarcodeScanner\app\build\intermediates\pre-dexed\debug\zbar-40250cb1dfb65eaef9c97828affe1970505c75e1.jar" />
+    </item>
+    <item
+        jar="C:\Users\Cipson\Documents\Uni\GP\ZbarBarcodeScanner\app\build\intermediates\exploded-aar\me.dm7.barcodescanner\core\1.8.2\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="96c83d4de6289a3f674165f896ac992564a7138d">
+        <dex dex="C:\Users\Cipson\Documents\Uni\GP\ZbarBarcodeScanner\app\build\intermediates\pre-dexed\debug\classes-fbe287027c27451a9f50cad6d3da48b64a70f1b6.jar" />
+    </item>
+    <item
+        jar="C:\Users\Cipson\Documents\Uni\GP\ZbarBarcodeScanner\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="C:\Users\Cipson\Documents\Uni\GP\ZbarBarcodeScanner\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1-8641f66d3bbc96c9bb991fbf1e8ebd99eff9eba8.jar" />
+    </item>
+    <item
+        jar="C:\Users\Cipson\Documents\Uni\GP\ZbarBarcodeScanner\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="C:\Users\Cipson\Documents\Uni\GP\ZbarBarcodeScanner\app\build\intermediates\pre-dexed\debug\classes-85afb8d622d39b88cde541add4ea5b21f4e39fb2.jar" />
+    </item>
+    <item
+        jar="C:\Users\Cipson\Documents\Uni\GP\ZbarBarcodeScanner\app\build\intermediates\exploded-aar\me.dm7.barcodescanner\zbar\1.8.2\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="15f1c7a4c01dd95b6da8c5acfaf42d2075d1ae2a">
+        <dex dex="C:\Users\Cipson\Documents\Uni\GP\ZbarBarcodeScanner\app\build\intermediates\pre-dexed\debug\classes-851c4a52f7fb6adc1b2446525b811343f8a0db49.jar" />
+    </item>
+    <item
+        jar="C:\Users\Cipson\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="C:\Users\Cipson\Documents\Uni\GP\ZbarBarcodeScanner\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.1-a0c2e04e5d54672fb333a40f3d54504dc46eaaf4.jar" />
+    </item>
+    <item
+        jar="C:\Users\Cipson\Documents\Uni\GP\ZbarBarcodeScanner\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="C:\Users\Cipson\Documents\Uni\GP\ZbarBarcodeScanner\app\build\intermediates\pre-dexed\debug\classes-fd33d62a87e35b747e7c08b66000c58f84c49216.jar" />
+    </item>
+
+</items>
