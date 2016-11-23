@@ -1,5 +1,7 @@
 # Group 16 (Evolve) Group Project
 
-Trello: https://trello.com/b/7pycnOGw/mobile-auth
+## Trello
+https://trello.com/b/7pycnOGw/mobile-auth
 
-[TODO]
+## Connecting to the server
+ec2-user@35.156.58.36
