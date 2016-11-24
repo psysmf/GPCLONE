@@ -21,30 +21,31 @@
     <div class="container">
 
     <form action = "php/handleAddUser.php" class="form-register" method="POST">
-        <?php
-			include("php/database.php");
-		?>
+		<h2 class="form-register-heading">Register</h2>
 
-		<h2 class="form-register-heading">New User</h2>
-
-        <label for="inputEmail">Email address</label>
+		<!-- email -->
+        <label for="inputEmail">Email Address</label>
         <input type="email" id="inputEmail" name="email" class="form-control" placeholder="Email address" required autofocus>
 		<br/>
 
+		<!-- password -->
         <label for="inputPassword">Password</label>
         <input type="password" id="inputPassword" name="password" class="form-control" placeholder="Password" required>
         <br/>
 
+		<!-- first name -->
 		<label for="inputFName">First Name</label>
         <input type="text" id="inputFName" name="FName" class="form-control" placeholder="First name" required>
         <br/>
 
+		<!-- last name -->
 		<label for="inputLName">Last Name</label>
         <input type="text" id="inputLName" name="SName" class="form-control" placeholder="Last name" required>
         <br/>
 
+		<!-- mobile num -->
 		<label for="inputMobNumber">Mobile Number</label>
-        <input type="mobileNum" id="inputMobNumber" name="mobNumber" class="form-control" placeholder="Mobile number" required>
+        <input type="text" id="inputMobNumber" name="mobNumber" class="form-control" placeholder="Mobile number" required>
         <br/>
 
 		<div class="checkbox">
@@ -55,6 +56,6 @@
         <button class="btn btn-lg btn-primary btn-block" type="submit">Register</button>
       </form>
 
-    </div> <!-- /container -->
+    </div> 
   </body>
 </html>
