@@ -36,7 +36,7 @@
     include 'database.php';
 
     $email = sanitise($_POST["email"]);
-    $password = sanitise($_POST["password"]);
+    $password = hash('sha256', sanitise($_POST["password"]));
     $FName = sanitise($_POST["FName"]);
     $SName = sanitise($_POST["SName"]);
     $mobNumber = sanitise($_POST["mobNumber"]);
@@ -44,7 +44,7 @@
   	$sql = "INSERT INTO User (email, password, firstname, surname, mobilenum) VALUES (?,?,?,?,?)";
   	if (!$stmt = $conn->prepare($sql))
             die('Query failed: (' . $conn->errno . ') ' . $conn->error);
-  	if (!$stmt->bind_param('sssss', $email, hash('sha256', $password), $FName, $SName, $mobNumber))
+  	if (!$stmt->bind_param('sssss', $email, $password, $FName, $SName, $mobNumber))
   			    die('Bind Param failed: (' . $conn->errno . ') ' . $conn->error);
   	if (!$stmt->execute())
   			    die('Insert Error ' . $conn->error);
