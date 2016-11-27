@@ -44,7 +44,7 @@
   	$sql = "INSERT INTO User (email, password, firstname, surname, mobilenum) VALUES (?,?,?,?,?)";
   	if (!$stmt = $conn->prepare($sql))
             die('Query failed: (' . $conn->errno . ') ' . $conn->error);
-  	if (!$stmt->bind_param('sssss',$email,$password,$FName,$SName,$mobNumber))
+  	if (!$stmt->bind_param('sssss', $email, hash('sha256', $password), $FName, $SName, $mobNumber))
   			    die('Bind Param failed: (' . $conn->errno . ') ' . $conn->error);
   	if (!$stmt->execute())
   			    die('Insert Error ' . $conn->error);
